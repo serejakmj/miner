@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <script src="js.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="main-block">
+    <div class="media-block">
+      <div class="stat-block">
+        100
+      </div>
+      <div class="start-game-block" id="start-game-block">
+        <div class="form-item">
+          <div class="form-item-title">Сторона поля</div>
+          <div class="form-item-input"><input type="text" class="form-item-input-input" id="countInput"></div>
+        </div>
+        <div class="form-item">
+          <div class="form-item-title">Сколько бомб</div>
+          <div class="form-item-input"><input type="text" class="form-item-input-input" id="bombInput"></div>
+        </div>
+        <div class="start-button" onclick="generateField()">start</div>
+      </div>
+      <div class="game-block" id="game-block">
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>
