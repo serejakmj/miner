@@ -30,4 +30,27 @@
   </div>
   
 </body>
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyDZ_H_AG4UUMkSC-xh_hC9ou9Vu0k3aZl4",
+    authDomain: "mineriodio.firebaseapp.com",
+    projectId: "mineriodio",
+    storageBucket: "mineriodio.appspot.com",
+    messagingSenderId: "559416373861",
+    appId: "1:559416373861:web:7b5d9146f9b017630b4c8c",
+    measurementId: "G-7Z2F766WKG"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
 </html>
